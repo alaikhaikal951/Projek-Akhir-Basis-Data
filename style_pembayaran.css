@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Quicksand:wght@400;700&family=Roboto+Slab:wght@200&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/*Header*/
+header {
+    width: 70%;
+    height: 67px;
+    padding: 0 15%;
+    background: rgba(91, 75, 138, 0.9);
+    display: flex;
+    align-items: center;
+}
+
+header p {
+    margin: 0%;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 44px;
+    padding: 0%;
+    color: white;
+}
+
+header #username {
+    font-weight: 700;
+    font-size: 14px;
+    margin-right: 1em;
+}
+
+header .right-side {
+    justify-content: flex-end;
+    display: flex;
+    width: 50%;
+    float: right
+}
+
+#logo {
+    width: 50%;
+}
+
+#keluar {
+    background: #FF1515;
+    font-weight: 700;
+    font-size: 14px;
+    border-radius: 4px;
+    border: 0;
+    color: white;
+}
+
+/*Content*/
+.content{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-right: 5%;
+    margin-left: 5%;
+    background-color: #7858A6 ;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    padding: 1em 4em;
+    font-weight: 700;
+    font-size: 14px;
+    color: white;
+}
+
+.sub-content {
+    background: white;
+    color: black;
+    padding: 0 2em;
+    border-radius: 15px;
+}
+
+.border-top {
+    border-top: 1px solid black;
+    padding-top: 1em;
+}
+
+.right {
+    position: absolute;
+    right: 7%;
+}
+
+#konfirmasi-pembayaran {
+    margin-top: 3em;
+    height: 5em;
+    display: flex;
+    justify-content: flex-end;
+    align-items: baseline;
+}
+
+.button {
+    border: 0;
+    background: #f2f2f2;
+    padding: 1em 2em;
+    color: #5B4B8A;
+    font-weight: 800;
+    text-align: center;
+    border-radius: 15px;
+}
+
+a {
+    text-decoration: none;
+}
