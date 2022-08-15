@@ -7,9 +7,9 @@ body {
 
 /*Header*/
 header {
-    width: 70%;
+    width: 90%;
     height: 67px;
-    padding: 0 15%;
+    padding: 0 5%;
     background: rgba(91, 75, 138, 0.9);
     display: flex;
     align-items: center;
