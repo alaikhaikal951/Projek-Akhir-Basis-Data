@@ -7,9 +7,9 @@ body {
 
 /*Header*/
 header {
-    width: 70%;
+    width: 90%;
     height: 67px;
-    padding: 0 15%;
+    padding: 0 5%;
     background: rgba(91, 75, 138, 0.9);
     display: flex;
     align-items: center;
@@ -113,4 +113,14 @@ header .right-side {
     width: 11px;
     display: flex;
     justify-content: center;
+}
+
+/*Footer*/
+.footer {
+    position:relative;
+    float: left;
+    width: 70%;
+    height: 67px;
+    padding: 0 15%;
+    background: rgba(91, 75, 138, 0.9);
 }
