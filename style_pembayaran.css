@@ -54,23 +54,36 @@ header .right-side {
 .content{
     position: relative;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-around;
     margin-right: 5%;
     margin-left: 5%;
     background-color: #7858A6 ;
-    margin-top: 10%;
-    margin-bottom: 10%;
+    margin-top: 7%;
+    margin-bottom: 7%;
     padding: 1em 4em;
     font-weight: 700;
     font-size: 14px;
     color: white;
 }
 
-.sub-content {
+.field-wrap {
     background: white;
     color: black;
-    padding: 0 2em;
+    padding: 1em 2em;
     border-radius: 15px;
+}
+
+.split {
+    display: flex;
+}
+
+.space {
+    margin-right: 3em;
+}
+
+.sub-content {
+    width: 48%;
 }
 
 .border-top {
@@ -80,7 +93,7 @@ header .right-side {
 
 .right {
     position: absolute;
-    right: 7%;
+    right: 8%;
 }
 
 #konfirmasi-pembayaran {
@@ -103,4 +116,14 @@ header .right-side {
 
 a {
     text-decoration: none;
+}
+
+/*Footer*/
+.footer {
+    position:relative;
+    float: left;
+    width: 70%;
+    height: 67px;
+    padding: 0 15%;
+    background: rgba(91, 75, 138, 0.9);
 }
