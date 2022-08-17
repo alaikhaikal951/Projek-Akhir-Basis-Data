@@ -1,2 +1,2 @@
-# Projek-Akhir-Basis-Data
-Mati Kelen Semua Haha
+# Projek Akhir Basis Data
+Kelompok 2
