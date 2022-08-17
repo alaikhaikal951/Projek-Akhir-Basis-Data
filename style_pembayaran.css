@@ -24,7 +24,7 @@ header p {
     color: white;
 }
 
-header #username {
+header #nama_penumpang {
     font-weight: 700;
     font-size: 14px;
     margin-right: 1em;
@@ -61,7 +61,7 @@ header .right-side {
     background-color: #7858A6 ;
     margin-top: 7%;
     margin-bottom: 7%;
-    padding: 1em 4em;
+    padding: 1em 2em;
     font-weight: 700;
     font-size: 14px;
     color: white;
