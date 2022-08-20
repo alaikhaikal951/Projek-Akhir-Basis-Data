@@ -3,7 +3,7 @@
 <head>
     <title>Flying.com</title>
     <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./style/style.css">
 </head>
 <body>
     <header>
@@ -11,16 +11,18 @@
     </header>
     <main>
         <div class="content">
-            <p>Email</p>
-            <div class="field-wrap">
-                <input type="email" name="email" required placeholder="Masukan Email"/>
-            </div>
-            <p>Password</p>
-            <div class="field-wrap">
-                <input type="password" name="password" required placeholder="Masukan Password"/>
-            </div>
-            <a href="penumpang.html" class="button">MASUK</a>
-            <p style="margin: auto; color: white;">Belum punya akun? <a href="daftar.html">Daftar</a></p>
+            <form action="login.php" method="post">
+                <p>Email</p>
+                <div class="field-wrap">
+                    <input type="text" id="email" name="email" required placeholder="Masukan Email"/>
+                </div>
+                <p>Password</p>
+                <div class="field-wrap">
+                    <input type="password" id="pwd" name="pwd" required placeholder="Masukan Password"/>
+                </div>
+                <button type="submit" class="button">MASUK</button>
+                <p style="margin: auto; color: white;">Belum punya akun? <a href="daftar.html">Daftar</a></p>
+            </form>
         </div>
     </main>
     <footer class="footer">
