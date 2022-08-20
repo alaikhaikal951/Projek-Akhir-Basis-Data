@@ -2,35 +2,34 @@
 <html lang="en">
 <head>
     <title>Flying.com</title>
-    <link rel="stylesheet" href="./style.css">
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <link rel="stylesheet" href="./style/style.css">
 </head>
-
 <body>
-
     <header>
         <p id="logo">Flying.com</p>
     </header>
     <main>
         <div class="content">
-            <p>Nama</p>
-            <div class="field-wrap">
-                <input type="text" required autocomplete="off" placeholder="Masukan Nama Anda"/>
-            </div>
-            <p>Email</p>
-            <div class="field-wrap">
-                <input type="email" required autocomplete="on" placeholder="Masukan Email Anda"/>
-            </div>
-            <p>Password</p>
-            <div class="field-wrap">
-                <input type="password" required placeholder="Masukan Password"/>
-            </div>
-            <a href="penumpang.html" class="button">DAFTAR</a>
+            <form action="register.php" method="post">
+                <p>Nama</p>
+                <div class="field-wrap">
+                    <input type="text" name="nama_penumpang" id="nama_penumpang" required placeholder="Masukan Nama"/>
+                </div>
+                <p>Email</p>
+                <div class="field-wrap">
+                    <input type="email" name="email" id="email" required placeholder="Masukan Email"/>
+                </div>
+                <p>Password</p>
+                <div class="field-wrap">
+                    <input type="password" name="pwd" id="pwd" required placeholder="Masukan Password"/>
+                </div>
+                <button type="submit" class="button">DAFTAR</button>
+            </form>
         </div>
-
     </main>
     <footer class="footer">
 
     </footer>
-    
 </body>
 </html>

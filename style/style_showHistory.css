@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Quicksand:wght@400;700&family=Roboto+Slab:wght@200&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/*Header*/
+header {
+    width: 90%;
+    height: 67px;
+    padding: 0 5%;
+    background: rgba(91, 75, 138, 0.9);
+    display: flex;
+    align-items: center;
+}
+
+header p {
+    margin: 0%;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 44px;
+    padding: 0%;
+    color: white;
+}
+
+header #nama_penumpang {
+    font-weight: 700;
+    font-size: 14px;
+    margin-right: 1em;
+}
+
+header .right-side {
+    justify-content: flex-end;
+    display: flex;
+    width: 50%;
+    float: right
+}
+
+#logo {
+    width: 50%;
+}
+
+#keluar {
+    background: #FF1515;
+    font-weight: 700;
+    font-size: 14px;
+    border-radius: 4px;
+    border: 0;
+    color: white;
+    margin: auto 0;
+    padding: 0.5em 1em;
+}
+
+#halaman-utama {
+    background: #D9D9D9;
+    color: rgba(91, 75, 138, 0.9);
+    font-weight: 700;
+    font-size: 14px;
+    border-radius: 4px;
+    border: 0;
+    margin: auto 1em;
+    padding: 0.5em 1em;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*Content*/
+.top-content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-right: 5%;
+    margin-left: 5%;
+    background-color: #7858A6 ;
+    margin-top: 7%;
+    padding: 15px 15px 1% 18px;
+    color: white;
+}
+
+.content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-right: 5%;
+    margin-left: 5%;
+    background-color: #7858A6 ;
+    margin-bottom: 10%;
+    padding: 15px 15px 1% 15px;
+    color: white;
+}
+
+.content .keberangkatan-tujuan {
+    display: flex;
+    align-items: center;
+    background: white;
+    border-radius: 15px;
+    color: #7858A6;
+    padding-left: 1em;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.content .keberangkatan-tujuan b {
+    margin: 0 4em;
+}
+
+.daftar-maskapai {
+    display: flex;
+    justify-content: space-between;
+    background: white;
+    border-radius: 15px;
+    color: black;
+    height: 4em;
+    align-items: center;
+    font-size: 14px;
+    margin-bottom: 5px;
+    padding: 0 2em;
+}
+
+#harga {
+    background: #D9D9D9;
+    border-radius: 5px;
+    padding: 0.5em 1em;
+}
+
+#pilih {
+    background: #D9D9D9;
+    border: 0;
+    border-radius: 5px;
+    font-size: 14px;
+    padding: 0.5em 1em;
+}
+
+.waktu {
+    width: 32%;
+    display: flex;
+    justify-content: space-between;
+}
+
+th {
+    text-align: left;
+    background-color: #9C9EFE;
+    color: white;
+}
+
+td, th {
+    padding: 8px;
+}
+
+/*Footer*/
+.footer {
+    position:relative;
+    float: left;
+    width: 70%;
+    height: 67px;
+    padding: 0 15%;
+    background: rgba(91, 75, 138, 0.9);
+}
